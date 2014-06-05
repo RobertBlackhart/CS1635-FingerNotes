@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:tools="http://schemas.android.com/tools"
+	  tools:context="net.mcdermotsoft.fingernotes.NoteList" >
+
+	<item android:id="@+id/delete"
+		  android:title="@string/delete"
+		  android:icon="@drawable/ic_action_discard"
+		  app:showAsAction="ifRoom" />
+
+	<item android:id="@+id/share"
+		  android:title="@string/share"
+		  android:icon="@drawable/ic_action_share"
+		  app:showAsAction="ifRoom" />
+
+</menu>

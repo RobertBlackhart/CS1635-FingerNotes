@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Finger Notes</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawing">Edit Note</string>
+    <string name="save">Upload Note</string>
+    <string name="cancel">Cancel</string>
+    <string name="prefOK">OK</string>
+    <string name="hex">HEX</string>
+    <string name="hexHint">#ff0123</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="alpha">Alpha</string>
+    <string name="loading">Loading…</string>
+    <string name="empty">No Saved Notes</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="selected">selected</string>
+    <string name="selectColor">Select a Color</string>
+    <string name="recognized">Recognized Text:</string>
+	<string name="logoStatement">App icon used with permission under the Creative Commons Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0 US) license: http://creativecommons.org/licenses/by-sa/3.0/us/</string>
+	<string name="logoauthor">Authored By: GestureWorks - http://gestureworks.com/</string>
+	<string name="undoStatement">Undo icon used with permission under the GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: http://www.gnu.org/licenses/lgpl.html</string>
+	<string name="undoauthor">Authored By: Marco Martin</string>
+	<string name="newNote">New Note</string>
+
+    <string-array name="navigationArray">
+        <item>Create New Note</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

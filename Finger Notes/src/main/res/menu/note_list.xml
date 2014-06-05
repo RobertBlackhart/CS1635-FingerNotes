@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.mcdermotsoft.fingernotes.NoteList" >
+
+	<item android:id="@+id/newNote"
+		android:icon="@drawable/create_new_note"
+        android:title="@string/newNote"
+        app:showAsAction="always|withText" />
+
+</menu>

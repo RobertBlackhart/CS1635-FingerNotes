@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:tools="http://schemas.android.com/tools"
+	  tools:context="net.mcdermotsoft.fingernotes.NoteList" >
+
+	<item android:id="@+id/saveNote"
+		  android:title="@string/save"
+		  app:showAsAction="ifRoom" />
+
+	<item android:id="@+id/cancelNote"
+		  android:title="@string/cancel"
+		  app:showAsAction="ifRoom" />
+</menu>

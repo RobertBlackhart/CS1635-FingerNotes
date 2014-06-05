@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:padding="10dp">
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ic_launcher"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/logoStatement"
+		android:autoLink="web"
+		android:layout_marginBottom="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/logoauthor"
+		android:autoLink="web"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#ffcfcfcf"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"/>
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/undo"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/undoStatement"
+		android:autoLink="web"
+		android:layout_marginBottom="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/undoauthor"/>
+
+</LinearLayout>

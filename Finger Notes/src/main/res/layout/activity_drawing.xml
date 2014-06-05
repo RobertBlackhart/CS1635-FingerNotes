@@ -1,0 +1,97 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.mcdermotsoft.fingernotes.DrawingActivity">
+
+	<LinearLayout
+		android:id="@+id/toolbar"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:background="#ffd1d1d1"
+		android:layout_alignParentBottom="true"
+		android:gravity="center">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="30dp">
+
+			<ImageView
+				android:id="@+id/undo"
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:layout_marginRight="5dp"
+				android:padding="8dp"
+				android:src="@drawable/undo_disabled"
+				android:background="@drawable/selector_list"/>
+
+			<ImageView
+				android:id="@+id/redo"
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:layout_marginRight="5dp"
+				android:padding="8dp"
+				android:src="@drawable/redo_disabled"
+				android:background="@drawable/selector_list"/>
+
+			<ImageView
+				android:id="@+id/clear"
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:padding="8dp"
+				android:src="@drawable/undo_all_disabled"
+				android:background="@drawable/selector_list"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/colorLayout"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<FrameLayout
+				android:id="@+id/currentColorFrame"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="5dp"
+				android:foreground="@drawable/current_color_background31" >
+
+				<ImageView
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:background="@drawable/checkerboard" />
+
+				<ImageView
+					android:id="@+id/currentColor"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:background="#000000"
+					android:tag="000000" />
+
+			</FrameLayout>
+
+			<ImageView
+				android:id="@+id/colorPalette"
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:padding="8dp"
+				android:src="@drawable/palette"
+				android:background="@drawable/selector_list"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<net.mcdermotsoft.fingernotes.DrawingView
+		android:id="@+id/drawingView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/toolbar"/>
+
+</RelativeLayout>
